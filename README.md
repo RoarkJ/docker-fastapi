@@ -45,7 +45,8 @@ $touch Dockerfile
 12.) We can now build our Docker image.  
 $docker build -t python-fastapi .  
 13.) Now we can run our application from within a Docker container.
-$docker run -p 8000:8000 python-fastapi  
+$docker run -p 8000:8000 python-fastapi
+
 Some notes about step 12 and 13 code: When running the docker container in step 13 we are creating an live instance of the Docker image we create in step 12.  A good way to think of the difference between a Docker image and a Docker container is, to think of a Docker image like a jpeg image and the Docker container as a printed version of the Docker image.If you are familiar with virtual machine images then you likely understand what is going on here already. But, If you do not then, this analogy is a good stepping of point for contexting what you are doing in these last two steps.  
 
 Additionally, I would like to explain the "-p 8000:8000" portion of step 13. Whe you run a Docker container it does not publish any of it's ports to the outside world.  To make a port available to services outside of the Docker container that are not connected to the container's network (for exaple: a web browser) You must publish (-p) and map (8000:8000) a container's port to a port on the Docker host (In this case, your local machine where you are running Docker is the host.) 
