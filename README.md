@@ -1,2 +1,2 @@
-# docker-fastapi
-# this is a text for git status add push.
+# docker-fastapi-venv-git-vscode
+This is an introductory repository primarily focussed on demonstrating the development of an api using a combination of tools.  The tools used here are VSCode, Docker, Python Virtual Environment, FastAPI framework, Uvicorn ASGI(Asynchronous Server Gateway Interface) and of course Git with GitHub.
