@@ -7,12 +7,13 @@ You will need to have Docker installed and running on your desktop computer.
 
 Before getting started on project go to your github account and create a new repository.  When creating the repository add a Python .gitignore document template and add a README to your repository.  Copy the link needed to clone your repository locally.  
 
-If you want to use VSCode open vs code.  
+### If you want to use VSCode:  
+open vs code.  
 Install the official Microsoft Docker Extension.  This provides nice features for auto-debugging and auto-completion.
 There is also a GitHub Extension for VSCode. It is not necissary for this project.  
 For Steps where you copy past my code into your file use VSCode explorer to navigate to the file and paste into the file from within the editor window after you select the file in the VSCode explorer.  Remember to save changes before going back to the terminal to complete further steps.  
 Note: Remember to push your changes periodically to GitHub.
-Do step 1.) below from within VSCode.  The way you open a terminal in VSCode  is by selecting the  
+Complete terminal steps below from within VSCode.  The way you open a terminal in VSCode  is by selecting the  
 keys: Ctrl + `(backtick) then begin following from step 1.).
 
 ## Steps:
