@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# MacOS Files to ignore (My add)
+.DS_Store
+
 # C extensions
 *.so
 
