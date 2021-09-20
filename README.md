@@ -1,5 +1,5 @@
 # docker-fastapi-venv-git-vscode
-macOS
+macOS  
 This is an introduction repository primarily focused on demonstrating the development of an api using a combination of tools.  The tools used here are VSCode, Python, Docker, Python Virtual Environment, FastAPI framework, Uvicorn ASGI(Asynchronous Server Gateway Interface (async will not be implemented)) and of course Git with GitHub.
 I have added notes in the Dockerfile that may be helpful in understanding what we are doing with Docker.
 
